@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint 5</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <p class="header-wheather"><img src="" alt="" id="weather" /><span id="temperature"></span><b>°C |</b><span id="weatherDesc"></span></p>
+    </header>
+      <img src="./IMG/blob1.svg" class="blob1" alt="" />
+      <img src="./IMG/blob2.svg" class="blob2" alt="" />
+      <img src="./IMG/blob3.svg" class="blob3" alt="" />
+      <section id="jokeBox">
+        <h1>JOKE MACHINE</h1>
+        <p id="joke">GO AHEAD AND PRESS THE "NEXT JOKE" BUTTON AND GET READY FOR THE ULTIMATE JOKE MACHINE EXPERIENCE!</p>
+        <div class="votes">
+          <button class="btn" onclick="voteJoke(1)">Nah 🤢</button>
+          <button class="btn" onclick="voteJoke(2)">Meh 😐</button>
+          <button class="btn" onclick="voteJoke(3)">Yas 🥰</button>
+        </div>
+        <button class="btn nextJoke" onclick="getJoke()">Next Joke</button>
+      </section>
+
+    <!-- JavaScript -->
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
